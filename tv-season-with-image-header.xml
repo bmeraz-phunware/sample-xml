@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atv>
+  <head>
+    <script src="http://cbs-staging.phunware.com/sample-xml/js/main.js"/>
+  </head>
+  <body>
+    <itemCollectionWithImageHeader id="com.sample.menu-items-with-sections">
+      <styles>
+        <color name="titleColor">#ffffff</color>
+        <color name="metadataColor">#bababa</color>
+      </styles>
+      <header>
+        <imageHeader>
+          <image required="true" src720="http://cbs-staging.phunware.com/sample-xml/images/720p/FullWidthImageHeader.jpg" insets720="0 0 139 0" src1080="http://cbs-staging.phunware.com/sample-xml/images/1080p/FullWidthImageHeader.jpg" insets1080="0 0 209 0"/>
+        </imageHeader>
+      </header>
+      <menu>
+        <sections>
+          <menuSection>
+            <items>
+              <oneLineMenuItem id="list_0" accessibilityLabel="Add to favorites" onSelect="toggleFavorite('list_0');">
+                <label>Add to Instant Queue</label>
+                <preview>
+                  <longDescriptionPreview>
+                    <title>TV Show, Season N</title>
+                    <summary>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</summary>
+                    <image src720="http://cbs-staging.phunware.com/sample-xml/images/720p/tv1.png" src1080="http://cbs-staging.phunware.com/sample-xml/images/1080p/tv1.png"/>
+                  </longDescriptionPreview>
+                </preview>
+              </oneLineMenuItem>
+              <oneLineMenuItem id="list_1" accessibilityLabel="Rate this TV show" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/error-dialog.xml');">
+                <label>Rate this TV show</label>
+                <accessories>
+                  <arrow/>
+                </accessories>
+                <preview>
+                  <crossFadePreview>
+                    <image src720="http://cbs-staging.phunware.com/sample-xml/images/720p/tv1.png" src1080="http://cbs-staging.phunware.com/sample-xml/images/1080p/tv1.png"/>
+                  </crossFadePreview>
+                </preview>
+              </oneLineMenuItem>
+              <twoLineEnhancedMenuItem id="list_2" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/tv-episode.xml');" onPlay="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/sample-video/file-video-player.xml');">
+                <label>The Episode Title</label>
+                <rightLabel>2/1/11</rightLabel>
+                <ordinal>1</ordinal>
+                <maxOrdinalDigits>1</maxOrdinalDigits>
+                <image src720="http://cbs-staging.phunware.com/sample-xml/images/720p/thumbnail-tv1.jpg" src1080="http://cbs-staging.phunware.com/sample-xml/images/1080p/thumbnail-tv1.jpg"/>
+                <defaultImage>//4x3.png</defaultImage>
+                <preview>
+                  <longDescriptionPreview>
+                    <title>1. The Episode Title</title>
+                    <summary>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</summary>
+                    <image src720="http://cbs-staging.phunware.com/sample-xml/images/720p/tv1.png" src1080="http://cbs-staging.phunware.com/sample-xml/images/1080p/tv1.png"/>
+                    <rating>TV-MA</rating>
+                    <footnote>© The Studio, Inc.  All Rights Reserved.</footnote>
+                    <metadata>
+                      <mainLabel>Show Name</mainLabel>
+                      <label>Season 1</label>
+                      <label>Released 2/28/12</label>
+                      <label>58 minutes</label>
+                      <mediaBadges>
+                        <videoFormat>HD</videoFormat>
+                        <closedCaption/>
+                      </mediaBadges>
+                      <starRating>
+                        <percentage>80</percentage>
+                        <rightLabel>2180</rightLabel>
+                      </starRating>
+                    </metadata>
+                  </longDescriptionPreview>
+                </preview>
+              </twoLineEnhancedMenuItem>
+              <twoLineEnhancedMenuItem id="list_3" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/tv-episode.xml');" onPlay="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/sample-video/file-video-player.xml');">
+                <label>The Episode Title</label>
+                <rightLabel>2/2/11</rightLabel>
+                <ordinal>2</ordinal>
+                <maxOrdinalDigits>1</maxOrdinalDigits>
+                <image src720="http://cbs-staging.phunware.com/sample-xml/images/720p/thumbnail-tv2.jpg" src1080="http://cbs-staging.phunware.com/sample-xml/images/1080p/thumbnail-tv2.jpg"/>
+                <defaultImage>//4x3.png</defaultImage>
+                <preview>
+                  <longDescriptionPreview>
+                    <title>2. The Episode Title</title>
+                    <summary>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</summary>
+                    <image src720="http://cbs-staging.phunware.com/sample-xml/images/720p/tv1.png" src1080="http://cbs-staging.phunware.com/sample-xml/images/1080p/tv1.png"/>
+                    <footnote>© The Studio, Inc.  All Rights Reserved.</footnote>
+                    <metadata>
+                      <mainLabel>Show Name</mainLabel>
+                      <label>Season 1</label>
+                      <label>$0.99</label>
+                      <label>Released 2/2/11</label>
+                      <label>46 minutes</label>
+                      <label>Studio</label>
+                    </metadata>
+                  </longDescriptionPreview>
+                </preview>
+              </twoLineEnhancedMenuItem>
+              <twoLineEnhancedMenuItem id="list_4" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/tv-episode.xml');" onPlay="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/sample-video/file-video-player.xml');">
+                <label>The Episode Title</label>
+                <rightLabel>2/3/11</rightLabel>
+                <ordinal>3</ordinal>
+                <maxOrdinalDigits>1</maxOrdinalDigits>
+                <image src720="http://cbs-staging.phunware.com/sample-xml/images/720p/thumbnail-tv3.jpg" src1080="http://cbs-staging.phunware.com/sample-xml/images/1080p/thumbnail-tv3.jpg"/>
+                <defaultImage>//4x3.png</defaultImage>
+                <preview>
+                  <longDescriptionPreview>
+                    <title>3. The Episode Title</title>
+                    <summary>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</summary>
+                    <image src720="http://cbs-staging.phunware.com/sample-xml/images/720p/tv1.png" src1080="http://cbs-staging.phunware.com/sample-xml/images/1080p/tv1.png"/>
+                    <footnote>© The Studio, Inc.  All Rights Reserved.</footnote>
+                    <metadata>
+                      <mainLabel>Show Name</mainLabel>
+                      <label>Season 1</label>
+                      <label>$0.99</label>
+                      <label>Released 2/3/11</label>
+                      <label>46 minutes</label>
+                      <label>Studio</label>
+                    </metadata>
+                  </longDescriptionPreview>
+                </preview>
+              </twoLineEnhancedMenuItem>
+              <twoLineEnhancedMenuItem id="list_5" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/tv-episode.xml');" onPlay="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/sample-video/file-video-player.xml');">
+                <label>The Episode Title</label>
+                <rightLabel>2/4/11</rightLabel>
+                <ordinal>4</ordinal>
+                <maxOrdinalDigits>1</maxOrdinalDigits>
+                <image src720="http://cbs-staging.phunware.com/sample-xml/images/720p/thumbnail-tv4.jpg" src1080="http://cbs-staging.phunware.com/sample-xml/images/1080p/thumbnail-tv4.jpg"/>
+                <defaultImage>//4x3.png</defaultImage>
+                <preview>
+                  <longDescriptionPreview>
+                    <title>4. The Episode Title</title>
+                    <summary>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</summary>
+                    <image src720="http://cbs-staging.phunware.com/sample-xml/images/720p/tv1.png" src1080="http://cbs-staging.phunware.com/sample-xml/images/1080p/tv1.png"/>
+                    <footnote>© The Studio, Inc.  All Rights Reserved.</footnote>
+                    <metadata>
+                      <mainLabel>Show Name</mainLabel>
+                      <label>Season 1</label>
+                      <label>$0.99</label>
+                      <label>Released 2/4/11</label>
+                      <label>46 minutes</label>
+                      <label>Studio</label>
+                    </metadata>
+                  </longDescriptionPreview>
+                </preview>
+              </twoLineEnhancedMenuItem>
+              <twoLineEnhancedMenuItem id="list_6" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/tv-episode.xml');" onPlay="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/sample-video/file-video-player.xml');">
+                <label>The Episode Title</label>
+                <rightLabel>2/5/11</rightLabel>
+                <ordinal>5</ordinal>
+                <maxOrdinalDigits>1</maxOrdinalDigits>
+                <image src720="http://cbs-staging.phunware.com/sample-xml/images/720p/thumbnail-tv5.jpg" src1080="http://cbs-staging.phunware.com/sample-xml/images/1080p/thumbnail-tv5.jpg"/>
+                <defaultImage>//4x3.png</defaultImage>
+                <preview>
+                  <longDescriptionPreview>
+                    <title>5. The Episode Title</title>
+                    <summary>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</summary>
+                    <image src720="http://cbs-staging.phunware.com/sample-xml/images/720p/tv1.png" src1080="http://cbs-staging.phunware.com/sample-xml/images/1080p/tv1.png"/>
+                    <footnote>© The Studio, Inc.  All Rights Reserved.</footnote>
+                    <metadata>
+                      <mainLabel>Show Name</mainLabel>
+                      <label>Season 1</label>
+                      <label>$0.99</label>
+                      <label>Released 2/5/11</label>
+                      <label>46 minutes</label>
+                      <label>Studio</label>
+                    </metadata>
+                  </longDescriptionPreview>
+                </preview>
+              </twoLineEnhancedMenuItem>
+            </items>
+          </menuSection>
+        </sections>
+      </menu>
+    </itemCollectionWithImageHeader>
+  </body>
+</atv>

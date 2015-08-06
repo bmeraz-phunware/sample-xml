@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atv>
+    <head>
+        <script src="http://cbs-staging.phunware.com/sample-xml/js/main.js"/>
+    </head>
+    <body>
+        <itemCollectionWithImageHeader id="com.sample.menu-items-with-sections">
+            <styles>
+                <color name="titleColor">#ffffff</color>
+                <color name="metadataColor">#bababa</color>
+            </styles>
+            <header>
+                <imageHeader>
+                    <image required="true" src720="http://cbs-staging.phunware.com/sample-xml/images/720p/FullWidthImageHeader.jpg" insets720="0 0 139 0" src1080="http://cbs-staging.phunware.com/sample-xml/images/1080p/FullWidthImageHeader.jpg" insets1080="0 0 209 0"/>
+                </imageHeader>
+            </header>
+            
+            <!--INDIVIDUAL SHOW DATA POPULATES HERE-->
+            <menu>
+                <sections>
+                    <menuSection>
+                        <items>
+                            <oneLineMenuItem id="list_0" accessibilityLabel="Add to favorites" onSelect="toggleFavorite('list_0');">
+                                <label>Add to Instant Queue</label>
+                                
+                                <preview>
+                                    <longDescriptionPreview>
+                                        <title>TV Show</title>
+                                        <summary>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</summary>
+                                        <image src720="http://cbs-staging.phunware.com/sample-xml/images/720p/tv1.png" src1080="http://cbs-staging.phunware.com/sample-xml/images/1080p/tv1.png"/>
+                                        <metadata>
+                                            <mainLabel>Show Name</mainLabel>
+                                            <label>Season 1</label>
+                                            <label>58 minutes</label>
+                                            <label>REQUIRES CBS ALL ACCESS</label>
+                                        </metadata>
+                                    </longDescriptionPreview>
+                                </preview>
+                                
+                            </oneLineMenuItem>
+                            
+                            <!--OTHER SEASONS LINK HERE-->
+                            <oneLineMenuItem id="list_1" accessibilityLabel="Other Seasons" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/cbs-show-seasons');">
+                                <label>Other Seasons</label>
+                                <accessories>
+                                    <arrow/>
+                                </accessories>
+                            </oneLineMenuItem>
+                            
+                            <twoLineMenuItem id="list_2" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/cbs-show-tv-episode.xml');" onPlay="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/sample-video/file-video-player.xml');">
+                                
+                                <ordinal>1</ordinal>
+                                <label>The Episode Title</label>
+                                <accessories><progressBar percentage="50"></progressBar></accessories>
+                                <label2>Aired: 10/15/12</label2>
+                                
+                                <preview>
+                                    <longDescriptionPreview>
+                                        <title>1. The Episode Title</title>
+                                        <summary>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</summary>
+                                        <image src720="http://cbs-staging.phunware.com/sample-xml/images/720p/tv1.png" src1080="http://cbs-staging.phunware.com/sample-xml/images/1080p/tv1.png"/>
+                                        <rating>TV-MA</rating>
+                                        <footnote>© The Studio, Inc.  All Rights Reserved.</footnote>
+                                        <metadata>
+                                            <mainLabel>Show Name</mainLabel>
+                                            <label>Season 1</label>
+                                            <label>58 minutes</label>
+                                            <label>REQUIRES CBS ALL ACCESS</label>
+                                        </metadata>
+                                    </longDescriptionPreview>
+                                </preview>
+                            </twoLineMenuItem>
+                            
+                            
+                            <twoLineMenuItem id="list_3" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/cbs-show-tv-episode.xml');" onPlay="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/sample-video/file-video-player.xml');">
+                                <ordinal>2</ordinal>
+                                <label>The Episode Title</label>
+                                <accessories><progressBar percentage="50"></progressBar></accessories>
+                                <label2>Aired: 10/22/12</label2>
+                                
+                                <preview>
+                                    <longDescriptionPreview>
+                                        <title>2. The Episode Title</title>
+                                        <summary>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</summary>
+                                        <image src720="http://cbs-staging.phunware.com/sample-xml/images/720p/tv1.png" src1080="http://cbs-staging.phunware.com/sample-xml/images/1080p/tv1.png"/>
+                                        <rating>TV-MA</rating>
+                                        <footnote>© The Studio, Inc.  All Rights Reserved.</footnote>
+                                        <metadata>
+                                            <mainLabel>Show Name</mainLabel>
+                                            <label>Season 1</label>
+                                            <label>58 minutes</label>
+                                            <label>REQUIRES CBS ALL ACCESS</label>
+                                        </metadata>
+                                    </longDescriptionPreview>
+                                </preview>
+                            </twoLineMenuItem>
+                            
+                            <twoLineMenuItem id="list_3" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/cbs-show-tv-episode.xml');" onPlay="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/sample-video/file-video-player.xml');">
+                                <ordinal>3</ordinal>
+                                <label>The Episode Title</label>
+                                <accessories><progressBar percentage="50"></progressBar></accessories>
+                                <label2>Aired: 10/22/12</label2>
+                                
+                                <preview>
+                                    <longDescriptionPreview>
+                                        <title>3. The Episode Title</title>
+                                        <summary>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</summary>
+                                        <image src720="http://cbs-staging.phunware.com/sample-xml/images/720p/tv1.png" src1080="http://cbs-staging.phunware.com/sample-xml/images/1080p/tv1.png"/>
+                                        <rating>TV-MA</rating>
+                                        <footnote>© The Studio, Inc.  All Rights Reserved.</footnote>
+                                        <metadata>
+                                            <mainLabel>Show Name</mainLabel>
+                                            <label>Season 1</label>
+                                            <label>58 minutes</label>
+                                            <label>REQUIRES CBS ALL ACCESS</label>
+                                        </metadata>
+                                    </longDescriptionPreview>
+                                </preview>
+                            </twoLineMenuItem>
+                            
+                            <twoLineMenuItem id="list_3" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/cbs-show-tv-episode.xml');" onPlay="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/sample-video/file-video-player.xml');">
+                                <ordinal>4</ordinal>
+                                <label>The Episode Title</label>
+                                <accessories><progressBar percentage="50"></progressBar></accessories>
+                                <label2>Aired: 10/22/12</label2>
+                                
+                                <preview>
+                                    <longDescriptionPreview>
+                                        <title>4. The Episode Title</title>
+                                        <summary>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</summary>
+                                        <image src720="http://cbs-staging.phunware.com/sample-xml/images/720p/tv1.png" src1080="http://cbs-staging.phunware.com/sample-xml/images/1080p/tv1.png"/>
+                                        <rating>TV-MA</rating>
+                                        <footnote>© The Studio, Inc.  All Rights Reserved.</footnote>
+                                        <metadata>
+                                            <mainLabel>Show Name</mainLabel>
+                                            <label>Season 1</label>
+                                            <label>58 minutes</label>
+                                            <label>REQUIRES CBS ALL ACCESS</label>
+                                        </metadata>
+                                    </longDescriptionPreview>
+                                </preview>
+                            </twoLineMenuItem>
+                            
+                            <!--Conditional for CLIPS goes here-->
+                            <oneLineMenuItem id="list_1" accessibilityLabel="Rate this TV show" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/cbs-show-clips');">
+                                <label>Clips</label>
+                                <accessories>
+                                    <arrow/>
+                                </accessories>
+                            </oneLineMenuItem>
+                            
+                       </items>
+                    </menuSection>
+                </sections>
+            </menu>
+        </itemCollectionWithImageHeader>
+    </body>
+</atv>

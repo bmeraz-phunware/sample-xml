@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atv>
+  <body>
+    <dialog id="com.sample.error-dialog">
+	  <title>Station Not Available</title>
+	  <description>Your local CBS station is currently not available. Please check back soon, we're always expanding our coverage.</description>
+    </dialog>
+  </body>
+</atv>

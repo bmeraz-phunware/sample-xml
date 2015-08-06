@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atv>
+    <head>
+        <script src="http://cbs-staging.phunware.com/sample-xml/js/main.js"/>
+    </head>
+    <body>
+        <listWithPreview id="com.sample.menu-items-with-sections">
+            <header>
+                <simpleHeader accessibilityLabel="TV season">
+                    <title>Settings</title>
+                </simpleHeader>
+            </header>
+            
+            <preview>
+                <crossFadePreview>
+                    <image src720="http://cbs-staging.phunware.com/sample-xml/images/720p/tv1.png" src1080="http://cbs-staging.phunware.com/sample-xml/images/1080p/tv1.png"/>
+                </crossFadePreview>
+            </preview>
+            
+            <menu>
+                <sections>
+                    <menuSection>
+                        <items>
+                            <!--HARDCODED LINKS-->
+                            
+                            <!--CONDITION HERE THAT DERMINS IF THE USER IS LOGGED IN-->
+                            <oneLineMenuItem id="list_0" accessibilityLabel="Sign In">
+                                <label>Sign into CBS All Access Account</label>
+                                <accessories>
+                                    <arrow/>
+                                </accessories>
+                                
+                            </oneLineMenuItem>
+                            
+                            <oneLineMenuItem id="list_1" accessibilityLabel="Local Station" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/cbs-settings-local-station.xml');">
+                                <label>Local Station</label>
+                                <accessories>
+                                    <arrow/>
+                                </accessories>
+                            </oneLineMenuItem>
+                            
+                            <oneLineMenuItem id="list_2" accessibilityLabel="Help" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/cbs-settings-help.xml');">
+                                <label>Help</label>
+                                <accessories>
+                                    <arrow/>
+                                </accessories>
+                            </oneLineMenuItem>
+                            
+                            <oneLineMenuItem id="list_3" accessibilityLabel="Feedback" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/cbs-settings-feedback.xml');">
+                                <label>Feedback</label>
+                                <accessories>
+                                    <arrow/>
+                                </accessories>
+                            </oneLineMenuItem>
+                            
+                            <oneLineMenuItem id="list_4" accessibilityLabel="Legal Notice" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/cbs-settings-legal.xml');">
+                                <label>Legal Notice</label>
+                                <accessories>
+                                    <arrow/>
+                                </accessories>
+                            </oneLineMenuItem>
+                            
+                            <oneLineMenuItem id="list_5" accessibilityLabel="Network Information" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/cbs-settings-network.xml');">
+                                <label>Network Information</label>
+                                <accessories>
+                                    <arrow/>
+                                </accessories>
+                            </oneLineMenuItem>
+                            
+                            
+                            
+                            
+                            
+                            
+                        </items>
+                    </menuSection>
+                    
+                    <!--CONDITIONAL HERE - IF LOGGED IN SHOW THIS-->
+                    <menuSection>
+                        <header>
+                            <horizontalDivider alignment="center" accessibilityLabel="On Now">
+                                <title>Subscriptions</title>
+                            </horizontalDivider>
+                        </header>
+                        <items>
+                            <oneLineMenuItem id="list_5" accessibilityLabel="Other seasons">
+                                <accessories>
+                                    <checkMark/>
+                                </accessories>
+                                <label>Monthly Subscription</label>
+                                <rightLabel>$5.99</rightLabel>
+                            </oneLineMenuItem>
+                        </items>
+                   </menuSection>
+                        
+                    
+                </sections>
+            </menu>
+        </listWithPreview>
+    </body>
+</atv>

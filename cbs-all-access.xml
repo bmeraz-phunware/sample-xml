@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atv>
+  <head>
+    <script src="http://cbs-staging.phunware.com/sample-xml/js/main.js"/>
+  </head>
+  <body>
+    <scroller id="com.sample.cbs-all-access">
+      <header>
+        <simpleHeader accessibilityLabel="TV showcase" horizontalAlignment="right">
+            <title>CBS</title>
+          <image required="true">http://cbs-staging.phunware.com/sample-xml/images/ZYXLogo.png</image>
+        </simpleHeader>
+      </header>
+      
+      
+     <!--DYNAMIC DATA INTO EACH SHELF-->
+      <items>
+          
+          <showcase accessibilityLabel="Showcase Featured" id="showcase_1">
+
+              <items>
+                  <showcasePoster id="showcase_item_1" accessibilityLabel="Showcase item 1" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/movie.xml');" onPlay="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/sample-video/file-video-player.xml');">
+                      <image src1080="http://cbs-staging.phunware.com/sample-xml/images/1080p/Showcase-1.png" src720="http://cbs-staging.phunware.com/sample-xml/images/720p/Showcase-1.png"/>
+                      <defaultImage>resource://Poster.png</defaultImage>
+                  </showcasePoster>
+                  <showcasePoster id="showcase_item_2" accessibilityLabel="Showcase item 2" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/movie.xml');" onPlay="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/sample-video/file-video-player.xml');">
+                      <image src1080="http://cbs-staging.phunware.com/sample-xml/images/1080p/Showcase-2.png" src720="http://cbs-staging.phunware.com/sample-xml/images/720p/Showcase-2.png"/>
+                      <defaultImage>resource://Poster.png</defaultImage>
+                  </showcasePoster>
+                  <showcasePoster id="showcase_item_3" accessibilityLabel="Showcase item 3" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/movie.xml');" onPlay="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/sample-video/file-video-player.xml');">
+                      <image src1080="http://cbs-staging.phunware.com/sample-xml/images/1080p/Showcase-3.png" src720="http://cbs-staging.phunware.com/sample-xml/images/720p/Showcase-3.png"/>
+                      <defaultImage>resource://Poster.png</defaultImage>
+                  </showcasePoster>
+                  <showcasePoster id="showcase_item_4" accessibilityLabel="Showcase item 4" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/movie.xml');" onPlay="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/sample-video/file-video-player.xml');">
+                      <image src1080="http://cbs-staging.phunware.com/sample-xml/images/1080p/Showcase-4.png" src720="http://cbs-staging.phunware.com/sample-xml/images/720p/Showcase-4.png"/>
+                      <defaultImage>resource://Poster.png</defaultImage>
+                  </showcasePoster>
+                  <showcasePoster id="showcase_item_5" accessibilityLabel="Showcase item 5" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/movie.xml');" onPlay="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/sample-video/file-video-player.xml');">
+                      <image src1080="http://cbs-staging.phunware.com/sample-xml/images/1080p/Showcase-5.png" src720="http://cbs-staging.phunware.com/sample-xml/images/720p/Showcase-5.png"/>
+                      <defaultImage>resource://Poster.png</defaultImage>
+                  </showcasePoster>
+              </items>
+          </showcase>
+          
+          <collectionDivider alignment="left" accessibilityLabel="Top My CBS">
+              <title>My CBS</title>
+          </collectionDivider>
+          
+          <shelf id="shelf_0" columnCount="4">
+              <sections>
+                  <shelfSection>
+                      <items>
+                          <sixteenByNinePoster id="shelf_item_1" accessibilityLabel="Shelf item 1" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/movie.xml');" onPlay="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/sample-video/file-video-player.xml');">
+                              <title>Movie 1</title>
+                              <image src720="http://cbs-staging.phunware.com/sample-xml/images/720p/16x9.png" src1080="http://cbs-staging.phunware.com/sample-xml/images/1080p/16x9.png"/>
+                              <defaultImage>resource://Poster.png</defaultImage>
+                          </sixteenByNinePoster>
+                          <sixteenByNinePoster id="shelf_item_2" accessibilityLabel="Shelf item 2" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/movie.xml');" onPlay="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/sample-video/file-video-player.xml');">
+                              <title>Movie 2</title>
+                              <image src720="http://cbs-staging.phunware.com/sample-xml/images/720p/16x9.png" src1080="http://cbs-staging.phunware.com/sample-xml/images/1080p/16x9.png"/>
+                              <defaultImage>resource://Poster.png</defaultImage>
+                          </sixteenByNinePoster>
+                          <sixteenByNinePoster id="shelf_item_3" accessibilityLabel="Shelf item 3" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/movie.xml');" onPlay="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/sample-video/file-video-player.xml');">
+                              <title>Movie 3</title>
+                              <image src720="http://cbs-staging.phunware.com/sample-xml/images/720p/16x9.png" src1080="http://cbs-staging.phunware.com/sample-xml/images/1080p/16x9.png"/>
+                              <defaultImage>resource://Poster.png</defaultImage>
+                          </sixteenByNinePoster>
+                          <sixteenByNinePoster id="shelf_item_4" accessibilityLabel="Shelf item 4" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/movie.xml');" onPlay="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/sample-video/file-video-player.xml');">
+                              <title>Movie 4</title>
+                              <image src720="http://cbs-staging.phunware.com/sample-xml/images/720p/16x9.png" src1080="http://cbs-staging.phunware.com/sample-xml/images/1080p/16x9.png"/>
+                              <defaultImage>resource://Poster.png</defaultImage>
+                          </sixteenByNinePoster>
+                          <sixteenByNinePoster id="shelf_item_5" accessibilityLabel="Shelf item 5" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/movie.xml');" onPlay="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/sample-video/file-video-player.xml');">
+                              <title>Movie 5</title>
+                              <image src720="http://cbs-staging.phunware.com/sample-xml/images/720p/16x9.png" src1080="http://cbs-staging.phunware.com/sample-xml/images/1080p/16x9.png"/>
+                              <defaultImage>resource://Poster.png</defaultImage>
+                          </sixteenByNinePoster>
+                          <sixteenByNinePoster id="shelf_item_6" accessibilityLabel="Shelf item 6" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/movie.xml');" onPlay="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/sample-video/file-video-player.xml');">
+                              <title>Movie 6</title>
+                              <image src720="http://cbs-staging.phunware.com/sample-xml/images/720p/16x9.png" src1080="http://cbs-staging.phunware.com/sample-xml/images/1080p/16x9.png"/>
+                              <defaultImage>resource://Poster.png</defaultImage>
+                          </sixteenByNinePoster>
+                          
+                      </items>
+                  </shelfSection>
+              </sections>
+          </shelf>
+          
+          
+          <collectionDivider alignment="left" accessibilityLabel="Second Row Contiue Watching">
+              <title>Continue Watching</title>
+          </collectionDivider>
+          
+          <shelf id="shelf_1" columnCount="4">
+              <sections>
+                  <shelfSection>
+                      <items>
+                          <sixteenByNinePoster id="shelf_item_1" accessibilityLabel="Shelf item 1" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/movie.xml');" onPlay="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/sample-video/file-video-player.xml');">
+                              <title>Movie 1</title>
+                              <image src720="http://cbs-staging.phunware.com/sample-xml/images/720p/16x9.png" src1080="http://cbs-staging.phunware.com/sample-xml/images/1080p/16x9.png"/>
+                              <defaultImage>resource://Poster.png</defaultImage>
+                          </sixteenByNinePoster>
+                          <sixteenByNinePoster id="shelf_item_2" accessibilityLabel="Shelf item 2" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/movie.xml');" onPlay="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/sample-video/file-video-player.xml');">
+                              <title>Movie 2</title>
+                              <image src720="http://cbs-staging.phunware.com/sample-xml/images/720p/16x9.png" src1080="http://cbs-staging.phunware.com/sample-xml/images/1080p/16x9.png"/>
+                              <defaultImage>resource://Poster.png</defaultImage>
+                          </sixteenByNinePoster>
+                          <sixteenByNinePoster id="shelf_item_3" accessibilityLabel="Shelf item 3" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/movie.xml');" onPlay="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/sample-video/file-video-player.xml');">
+                              <title>Movie 3</title>
+                              <image src720="http://cbs-staging.phunware.com/sample-xml/images/720p/16x9.png" src1080="http://cbs-staging.phunware.com/sample-xml/images/1080p/16x9.png"/>
+                              <defaultImage>resource://Poster.png</defaultImage>
+                          </sixteenByNinePoster>
+                          <sixteenByNinePoster id="shelf_item_4" accessibilityLabel="Shelf item 4" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/movie.xml');" onPlay="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/sample-video/file-video-player.xml');">
+                              <title>Movie 4</title>
+                              <image src720="http://cbs-staging.phunware.com/sample-xml/images/720p/16x9.png" src1080="http://cbs-staging.phunware.com/sample-xml/images/1080p/16x9.png"/>
+                              <defaultImage>resource://Poster.png</defaultImage>
+                          </sixteenByNinePoster>
+                          <sixteenByNinePoster id="shelf_item_5" accessibilityLabel="Shelf item 5" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/movie.xml');" onPlay="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/sample-video/file-video-player.xml');">
+                              <title>Movie 5</title>
+                              <image src720="http://cbs-staging.phunware.com/sample-xml/images/720p/16x9.png" src1080="http://cbs-staging.phunware.com/sample-xml/images/1080p/16x9.png"/>
+                              <defaultImage>resource://Poster.png</defaultImage>
+                          </sixteenByNinePoster>
+                          <sixteenByNinePoster id="shelf_item_6" accessibilityLabel="Shelf item 6" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/movie.xml');" onPlay="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/sample-video/file-video-player.xml');">
+                              <title>Movie 6</title>
+                              <image src720="http://cbs-staging.phunware.com/sample-xml/images/720p/16x9.png" src1080="http://cbs-staging.phunware.com/sample-xml/images/1080p/16x9.png"/>
+                              <defaultImage>resource://Poster.png</defaultImage>
+                          </sixteenByNinePoster>
+                          
+                      </items>
+                  </shelfSection>
+              </sections>
+          </shelf>
+          
+          
+          
+      </items>
+      
+
+          
+      
+      
+    </scroller>
+  </body>
+</atv>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atv>
+    <head>
+        <script src="http://cbs-staging.phunware.com/sample-xml/js/main.js"/>
+    </head>
+  <body>
+      <!--<header>
+          <simpleHeader accessibilityLabel="Dialog with Options">
+              <title>Feedback</title>
+              <subtitle>Settings</subtitle>
+          </simpleHeader>
+      </header>-->
+      
+      <dialog id="com.sample.cbs-settings-feedback">
+          
+          <title>Feedback</title>
+          <description>We would love to hear what you have to say! Send an email to [email here] and let us know how we are doing.</description>
+          
+          <!--<menu>
+              
+              <sections>
+                  <menuSection>
+                      <items>
+                          
+                          <twoLineMenuItem id="list_0" accessibilityLabel="Feedback">
+                              <label>We would love to hear what you have to say! Send an email to [email here] and let us know how we are doing.</label>
+                          </twoLineMenuItem>
+                          
+                      </items>
+                  </menuSection>
+              </sections>
+          </menu>-->
+          
+      </dialog>
+    
+  </body>
+</atv>

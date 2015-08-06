@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atv>
+  <body>
+    <interstitialGroup>
+	  <interstitial>
+        <start>39.90652</start>
+        <end>101.83503</end>
+	  </interstitial>
+      <interstitial>
+        <start>151.74155</start>
+        <end>181.25268</end>
+      </interstitial>
+    </interstitialGroup>
+  </body>
+</atv>

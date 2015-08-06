@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atv>
+  <body>
+    <dialog id="com.sample.error-dialog">
+	  <title>Maximum Number of Video Notice</title>
+	  <description>You've reached the maximum number of simultaneous video streams for your account. To view this video, close one of the videos you're watching on any other device and try again.</description>
+    </dialog>
+  </body>
+</atv>

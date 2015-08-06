@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atv>
+  <body>
+    <relatedPlayback>
+      <upNextItem id="ABCD1234">
+        <httpLiveStreamingVideoAsset id="ABCD1234" indefiniteDuration="false">
+          <mediaURL>http://cbs-staging.phunware.com/sample-xml/sample-video/hls-sample/interstitial_1_master.m3u8</mediaURL>
+          <title>Interstitials</title>
+          <description>Live video stream with interstitials defined. Press up on the remote to see the interstitials while the video is playing. Override player callbacks in Javascript to prevent skipping during interstitials.</description>
+          <image>http://cbs-staging.phunware.com/sample-xml/images/movie1.png</image>
+          <upNextPresentationTime>80</upNextPresentationTime>
+          <myMetadata>
+            <relatedPlaybackURL>http://cbs-staging.phunware.com/sample-xml/sample-video/hls-related-playback-with-up-next.xml</relatedPlaybackURL>
+          </myMetadata>
+        </httpLiveStreamingVideoAsset>
+      </upNextItem>
+      <optionsMenu>
+        <sections>
+          <menuSection>
+            <items>
+              <oneLineMenuItem id="list_0" onSelect="onRelatedPlaybackOptionSelected('list_0');">
+                <label>Video Option One</label>
+              </oneLineMenuItem>
+              <oneLineMenuItem id="list_0" onSelect="onRelatedPlaybackOptionSelected('list_0');">
+                <label>Video Option One</label>
+              </oneLineMenuItem>
+              <oneLineMenuItem id="list_0" onSelect="onRelatedPlaybackOptionSelected('list_0');">
+                <label>Video Option One</label>
+              </oneLineMenuItem>
+              <oneLineMenuItem id="list_0" onSelect="onRelatedPlaybackOptionSelected('list_0');">
+                <label>Video Option One</label>
+              </oneLineMenuItem>
+            </items>
+          </menuSection>
+        </sections>
+      </optionsMenu>
+    </relatedPlayback>
+  </body>
+</atv>

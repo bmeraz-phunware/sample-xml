@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atv>
+  <head>
+    <script src="http://cbs-staging.phunware.com/sample-xml/js/main.js"/>
+  </head>
+  <body>
+    <optionList id="com.sample.cbs-show-resume-option-list" autoSelectSingleItem="false">
+      
+      <items>
+          
+         <!--SCRIPT FOR READING RESUME GOES HERE-->
+        <oneLineMenuItem id="list_0"  accessibilityLabel="Home, via WABC" onSelect="console.log('Item 1 selected'); atvutils.loadAndSwapURL('http://cbs-staging.phunware.com/sample-xml/sample-video/hls-indefinite-video-player.xml');">
+          <label>Resume Playing</label>
+        </oneLineMenuItem>
+        
+        <oneLineMenuItem id="list_1" accessibilityLabel="Away, via KABC" onSelect="atvutils.loadAndSwapURL('http://cbs-staging.phunware.com/sample-xml/sample-video/hls-indefinite-video-player.xml');">
+          <label>Start from Begining</label>
+        </oneLineMenuItem>
+        
+      </items>
+    </optionList>
+  </body>
+</atv>

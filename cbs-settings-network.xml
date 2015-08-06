@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atv>
+    <head>
+        <script src="http://cbs-staging.phunware.com/sample-xml/js/main.js"/>
+    </head>
+  <body>
+    <optionDialog id="com.sample.cbs-settings-legal">
+      <header>
+        <simpleHeader accessibilityLabel="Dialog with Options">
+          <title>Network Information</title>
+          <subtitle>Settings</subtitle>
+        </simpleHeader>
+      </header>
+      
+      <description></description>
+
+      <menu>
+        
+        <sections>
+          <menuSection>
+            <items>
+                
+              <!--DYNAMICALLY ADD USERS IP HERE-->
+              <twoLineMenuItem id="list_0" accessibilityLabel="Option 1">
+                  <label>IP Address: XX.YY.ZZZZ</label>
+              </twoLineMenuItem>
+              
+              
+            </items>
+          </menuSection>
+        </sections>
+      </menu>
+      
+    </optionDialog>
+  </body>
+</atv>

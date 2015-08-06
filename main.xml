@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atv>
+    <head>
+        <script src="http://cbs-staging.phunware.com/sample-xml/js/main.js"/>
+    </head>
+    <body>
+        <viewWithNavigationBar id="com.sample.navigation-bar" onNavigate="handleNavbarNavigate( event, 'com.sample.navigation-bar' );" volatile="true" onVolatileReload="handleNavBarVolatileReload( document, 'com.sample.navigation-bar');">
+            <navigation currentIndex="0">
+                <navigationItem id="nav1">
+                    <title>CBS All Access</title>
+                    <url>http://cbs-staging.phunware.com/sample-xml/cbs-all-access</url>
+                </navigationItem>
+                <navigationItem id="nav2">
+                    <title>Shows</title>
+                    <url>http://cbs-staging.phunware.com/sample-xml/cbs-shows</url>
+                </navigationItem>
+                <navigationItem id="nav3">
+                    <title>Live TV</title>
+                    <url>http://cbs-staging.phunware.com/sample-xml/cbs-liveTV-option-dialog</url>
+                </navigationItem>
+                <navigationItem id="nav4">
+                    <title>Search</title>
+                    <url>http://cbs-staging.phunware.com/sample-xml/cbs-search</url>
+                </navigationItem>
+                <navigationItem id="nav5">
+                    <title>Settings</title>
+                    <url>http://cbs-staging.phunware.com/sample-xml/cbs-settings-home</url>
+                </navigationItem>
+            </navigation>
+        </viewWithNavigationBar>
+    </body>
+</atv>
+

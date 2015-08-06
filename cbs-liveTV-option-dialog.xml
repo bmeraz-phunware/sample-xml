@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atv>
+    <head>
+        <script src="http://cbs-staging.phunware.com/sample-xml/js/main.js"/>
+    </head>
+  <body>
+    <optionDialog id="com.sample.cbs-liveTV-option-dialog">
+      <header>
+        <simpleHeader accessibilityLabel="Dialog with Options">
+          <title>Please select which station you would like to watch.</title>
+        </simpleHeader>
+      </header>
+      <description>You can change this later in settings.</description>
+
+      <menu>
+        
+        <sections>
+          <menuSection>
+            <items>
+                
+                <!--THESE ARE DYNAMICALLY POPULATED DEPENDING ON???-->
+              <twoLineMenuItem id="list_0" accessibilityLabel="Option 1" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/cbs-liveTV-schedule.xml');">
+                  
+                  <image src720="http://cbs-staging.phunware.com/sample-xml/images/720p/tv1.png" src1080="http://cbs-staging.phunware.com/sample-xml/images/1080p/tv1.png"/>
+                  
+                <label>Waco-Temple-Bryan | KBTX</label>
+              </twoLineMenuItem>
+              
+              <twoLineMenuItem id="list_1" accessibilityLabel="Option 2" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/cbs-liveTV-schedule.xml');">
+                  
+                  <image src720="http://cbs-staging.phunware.com/sample-xml/images/720p/tv1.png" src1080="http://cbs-staging.phunware.com/sample-xml/images/1080p/tv1.png"/>
+                <label>Waco-Temple-Bryan | KTVR</label>
+              </twoLineMenuItem>
+            </items>
+          </menuSection>
+        </sections>
+      </menu>
+      
+    </optionDialog>
+  </body>
+</atv>

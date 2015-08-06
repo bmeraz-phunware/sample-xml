@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atv>
+  <body>
+    <videoPlayer id="com.sample.video-player">
+      <httpLiveStreamingVideoAsset id="ABCD1234" indefiniteDuration="true">
+        <mediaURL>http://public.infozen.cshls.lldns.net/infozen/public/public.m3u8</mediaURL>
+        <title>NASA TV</title>
+        <description>NASA TV Live Streaming</description>
+        <image>http://cbs-staging.phunware.com/sample-xml/images/movie1.png</image>
+      </httpLiveStreamingVideoAsset>
+    </videoPlayer>
+  </body>
+</atv>

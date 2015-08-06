@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atv>
+  <head>
+    <script src="http://cbs-staging.phunware.com/sample-xml/js/main.js"/>
+  </head>
+  <body>
+    <listWithPreview id="com.sample.menu-items">
+      <!--CBS LOGO GOES HERE-->
+      <preview>
+          <crossFadePreview>
+              <image>http://cbs-staging.phunware.com/sample-xml/images/tv1.png</image>
+          </crossFadePreview>
+      </preview>
+      
+      <!--DYNAMIC DATA FROM CBS SCHEDULE GOES HERE-->
+      <menu>
+        <sections>
+          <menuSection>
+            <header>
+              <horizontalDivider alignment="left" accessibilityLabel="On Now">
+                <title>On Now</title>
+              </horizontalDivider>
+            </header>
+            <items>
+              <twoLineMenuItem id="list_left_1" accessibilityLabel="Menu Item 1">
+                  <label>8:00 PM</label>
+                <label2>Big Bang Theory</label2>
+              </twoLineMenuItem>
+            </items>
+          </menuSection>
+          <menuSection>
+            <header>
+              <horizontalDivider alignment="left" accessibilityLabel="Up Next">
+                <title>Up Next</title>
+              </horizontalDivider>
+            </header>
+            <items>
+                <twoLineMenuItem id="list_left_1" accessibilityLabel="Menu Item 1">
+                    <label>8:30 PM</label>
+                    <label2>Mom</label2>
+                </twoLineMenuItem>
+            </items>
+          </menuSection>
+        </sections>
+      </menu>
+    </listWithPreview>
+  </body>
+</atv>

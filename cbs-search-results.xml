@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atv>
+  <body>
+    <searchResults id="com.sample.cbs-searchResults">
+		<menu>
+		    <sections>
+               
+		      <menuSection>
+		        <header>
+		          <horizontalDivider alignment="center" accessibilityLabel="TV shows">
+		            <title>TV Shows</title>
+		          </horizontalDivider>
+		        </header>
+                
+                <!--THIS ENTIRE SECTION IS DYNAMIC- HARD CODED AS AN EXAMPLE-->
+		        <items>
+	              <twoLineMenuItem id="list_3" accessibilityLabel="TV show 1, season 12" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/tv-season.xml');" onPlay="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/sample-video/file-video-player.xml');">
+	                <label>TV Show 1</label>
+	                <label2>Season 12</label2>
+	                <image>http://cbs-staging.phunware.com/sample-xml/images/tv1.png</image>
+	              </twoLineMenuItem>
+	              <twoLineMenuItem id="list_4" accessibilityLabel="TV show 2, season 3" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/tv-season.xml');" onPlay="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/sample-video/file-video-player.xml');">
+	                <label>TV Show 2</label>
+	                <label2>Season 3</label2>
+	                <image>http://cbs-staging.phunware.com/sample-xml/images/tv1.png</image>
+	              </twoLineMenuItem>
+		        </items>
+		      </menuSection>
+              
+		    </sections>
+		  </menu>
+    </searchResults>
+  </body>
+</atv>

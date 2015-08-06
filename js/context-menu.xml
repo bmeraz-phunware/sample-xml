@@ -1,0 +1,18 @@
+<atv>
+  <body>
+    <popUpMenu id="context_menu">
+      <sections>
+        <menuSection>
+          <items>
+            <oneLineMenuItem id="context_menu_0" accessibilityLabel="Toggle" onSelect="toggleContextMenuCheckmark('context_menu_0')">
+              <label>Toggle</label>
+            </oneLineMenuItem>
+            <oneLineMenuItem id="context_menu_100" accessibilityLabel="Cancel" onSelect="atv.contextMenu.cancel()">
+              <label>Cancel</label>
+            </oneLineMenuItem>
+          </items>
+        </menuSection>
+      </sections>
+    </popUpMenu>
+  </body>
+</atv>

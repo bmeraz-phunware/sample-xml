@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atv>
+    <head>
+        <script src="http://cbs-staging.phunware.com/sample-xml/js/main.js"/>
+    </head>
+  <body>
+    <optionDialog id="com.sample.cbs-settings-legal">
+      <header>
+        <simpleHeader accessibilityLabel="Dialog with Options">
+          <title>Legal Notices</title>
+          <subtitle>Settings</subtitle>
+        </simpleHeader>
+      </header>
+      
+
+      <menu>
+        
+        <sections>
+          <menuSection>
+            <items>
+                
+              <twoLineMenuItem id="list_0" accessibilityLabel="Option 1">
+                <label>Terms of Use</label>
+                <label2>http://site</label2>
+              </twoLineMenuItem>
+              
+              <twoLineMenuItem id="list_1" accessibilityLabel="Option 2">
+                <label>Privacy Policy</label>
+                <label2>http://site</label2>
+              </twoLineMenuItem>
+              
+              <twoLineMenuItem id="list_2" accessibilityLabel="Option 3">
+                  <label>Video Services Policy</label>
+                  <label2>http://site</label2>
+              </twoLineMenuItem>
+              
+              
+            </items>
+          </menuSection>
+        </sections>
+      </menu>
+      
+    </optionDialog>
+  </body>
+</atv>

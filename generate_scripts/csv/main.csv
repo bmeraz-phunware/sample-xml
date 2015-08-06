@@ -1,0 +1,37 @@
+MENU_ITEM_TITLE,SELECT_URL
+Movie Shelf,http://cbs-staging.phunware.com/sample-xml/movie-shelf.xml
+TV Shelf,http://cbs-staging.phunware.com/sample-xml/tv-shelf.xml
+Movie Showcase,http://cbs-staging.phunware.com/sample-xml/movie-showcase-grid.xml
+Movie Grid,http://cbs-staging.phunware.com/sample-xml/movie-grid.xml
+Shelf + Grid,http://cbs-staging.phunware.com/sample-xml/movie-shelf-grid.xml
+Shelf + Grid: No Outline,http://cbs-staging.phunware.com/sample-xml/movie-shelf-no-poster-outline.xml
+Paged Grid,http://cbs-staging.phunware.com/sample-xml/paged-grid.xml
+Room,http://cbs-staging.phunware.com/sample-xml/tv-room.xml
+Room with Image Header,http://cbs-staging.phunware.com/sample-xml/room-with-image-header.xml
+Previews,http://cbs-staging.phunware.com/sample-xml/previews.xml
+Movie Detail,http://cbs-staging.phunware.com/sample-xml/movie.xml
+Movie Detail with Image Header,http://cbs-staging.phunware.com/sample-xml/movie-with-image-header.xml
+TV Season,http://cbs-staging.phunware.com/sample-xml/tv-season.xml
+TV Season with Image Header,http://cbs-staging.phunware.com/sample-xml/tv-season-with-image-header.xml
+TV Episode Detail,http://cbs-staging.phunware.com/sample-xml/tv-episode.xml
+TV Episode Detail with Image Header,http://cbs-staging.phunware.com/sample-xml/tv-episode-with-image-header.xml
+Menu Items,http://cbs-staging.phunware.com/sample-xml/menu-items.xml
+Menu Items With Sections,http://cbs-staging.phunware.com/sample-xml/menu-items-with-sections.xml
+Option List,http://cbs-staging.phunware.com/sample-xml/option-list.xml
+Option Dialog,http://cbs-staging.phunware.com/sample-xml/option-dialog.xml
+List Scroller Split,http://cbs-staging.phunware.com/sample-xml/list-scroller-split.xml
+Navigation Bar,http://cbs-staging.phunware.com/sample-xml/navigation-bar.xml
+Tumbler Navigation,http://cbs-staging.phunware.com/sample-xml/tumbler1.xml
+Tab Navigation,http://cbs-staging.phunware.com/sample-xml/tab1.xml
+Subtitle Tumbler,http://cbs-staging.phunware.com/sample-xml/tumbler-subtitle-tumbles-season1.xml
+Search,http://cbs-staging.phunware.com/sample-xml/search.xml
+Video Playback,http://cbs-staging.phunware.com/sample-xml/video-playback.xml
+Video Clips,http://cbs-staging.phunware.com/sample-xml/video-clips.xml
+Authentication,http://cbs-staging.phunware.com/sample-xml/authentication/main.xml
+JavaScript Examples,http://cbs-staging.phunware.com/sample-xml/js/javascript.xml
+Shelf List,http://cbs-staging.phunware.com/sample-xml/shelf-list.xml
+Standings,http://cbs-staging.phunware.com/sample-xml/standings.xml
+Scrolling Text,http://cbs-staging.phunware.com/sample-xml/scrolling-text.xml
+Media Browser,http://cbs-staging.phunware.com/sample-xml/mediaBrowser.xml
+Pin Code,http://cbs-staging.phunware.com/sample-xml/pin-code.xml
+Calendar,http://cbs-staging.phunware.com/sample-xml/calendar.xml

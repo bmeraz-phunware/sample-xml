@@ -1,0 +1,13 @@
+#EXTM3U
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=8323779,CODECS="mp4a.40.2, avc1.640029",RESOLUTION=1920x1080
+http://cbs-staging.phunware.com/sample-xml/sample-video/hls-video/interstitial_2/6500k/prog_index.m3u8
+#EXT-X-I-FRAME-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=969472,CODECS="avc1.640029",URI="interstitial_2/6500k/iframe_index.m3u8"
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5145846,CODECS="mp4a.40.2, avc1.640028",RESOLUTION=1280x720
+http://cbs-staging.phunware.com/sample-xml/sample-video/hls-video/interstitial_2/4000k/prog_index.m3u8
+#EXT-X-I-FRAME-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=796125,CODECS="avc1.640028",URI="interstitial_2/4000k/iframe_index.m3u8"
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=3428273,CODECS="mp4a.40.2, avc1.640028",RESOLUTION=1280x720
+http://cbs-staging.phunware.com/sample-xml/sample-video/hls-video/interstitial_2/2500k/prog_index.m3u8
+#EXT-X-I-FRAME-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=654553,CODECS="avc1.640028",URI="interstitial_2/2500k/iframe_index.m3u8"
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1806367,CODECS="mp4a.40.2, avc1.640028",RESOLUTION=960x540
+http://cbs-staging.phunware.com/sample-xml/sample-video/hls-video/interstitial_2/1200k/prog_index.m3u8
+#EXT-X-I-FRAME-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=668011,CODECS="avc1.640028",URI="interstitial_2/1200k/iframe_index.m3u8"

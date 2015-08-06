@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atv>
+  <head>
+    <script src="http://cbs-staging.phunware.com/sample-xml/js/main.js"/>
+  </head>
+  <body>
+    <listWithPreview id="com.sample.video-playback">
+      <header>
+        <simpleHeader accessibilityLabel="Video playback">
+          <title>Video Playback</title>
+        </simpleHeader>
+      </header>
+      <menu>
+        <sections>
+          <menuSection>
+            <header>
+              <horizontalDivider accessibilityLabel="HTTP File playback" alignment="left">
+                <title>HTTP File Playback</title>
+              </horizontalDivider>
+            </header>
+            <items>
+              <oneLineMenuItem accessibilityLabel="Movie file" id="list_1_0" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/sample-video/file-video-player.xml');">
+                <label>Movie file</label>
+              </oneLineMenuItem>
+            </items>
+          </menuSection>
+          <menuSection>
+            <header>
+              <horizontalDivider accessibilityLabel="HTTP Live streaming playback" alignment="left">
+                <title>HTTP Live Streaming Playback</title>
+              </horizontalDivider>
+            </header>
+            <items>
+              <oneLineMenuItem accessibilityLabel="Live movie" id="list_1_1" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/sample-video/hls-indefinite-video-player.xml');">
+                <label>Indefinite Duration (Live)</label>
+              </oneLineMenuItem>
+              <oneLineMenuItem accessibilityLabel="Video on demand video" id="list_2_1" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/sample-video/hls-vod-video-player.xml');">
+                <label>Definite Duration (VOD)</label>
+              </oneLineMenuItem>
+              <oneLineMenuItem accessibilityLabel="Video on demand video" id="list_3_1" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/sample-video/hls-vod-video-player-with-startdate.xml');">
+                <label>Definite Duration (VOD) w/ Start Date</label>
+              </oneLineMenuItem>
+            </items>
+          </menuSection>
+          <menuSection>
+            <header>
+              <horizontalDivider accessibilityLabel="Seek previews" alignment="left">
+                <title>ATV Image Trick Play (aka Seek Previews)</title>
+              </horizontalDivider>
+            </header>
+            <items>
+              <oneLineMenuItem accessibilityLabel="One image per second" id="list_1_2" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/sample-video/hls-trickplay-video-player.xml');">
+                <label>1 image per second</label>
+              </oneLineMenuItem>
+            </items>
+          </menuSection>
+          <menuSection>
+            <header>
+              <horizontalDivider accessibilityLabel="Event groups and interstitials" alignment="left">
+                <title>Event Groups and Interstitials</title>
+              </horizontalDivider>
+            </header>
+            <items>
+              <oneLineMenuItem accessibilityLabel="Group example" id="list_1_3" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/sample-video/hls-eventgroups-video-player.xml');">
+                <label>2 group example</label>
+              </oneLineMenuItem>
+              <oneLineMenuItem accessibilityLabel="Interstitials example" id="list_2_3" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/sample-video/hls-interstitials-video-player.xml');">
+                <label>Interstitials example</label>
+              </oneLineMenuItem>
+            </items>
+          </menuSection>
+          <menuSection>
+            <header>
+              <horizontalDivider accessibilityLabel="Bookmarks" alignment="left">
+                <title>Bookmarks</title>
+              </horizontalDivider>
+            </header>
+            <items>
+              <oneLineMenuItem accessibilityLabel="Bookmark at 34 point 5 seconds" id="list_1_4" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/sample-video/hls-bookmark-video-player.xml');">
+                <label>Bookmark at 34.5 seconds</label>
+              </oneLineMenuItem>
+              <oneLineMenuItem accessibilityLabel="Net bookmark at 5 seconds with interstitial" id="list_2_4" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/sample-video/hls-bookmark-net-video-player.xml');">
+                <label>Net bookmark at 5s with interstitial (gross should be 15s)</label>
+              </oneLineMenuItem>
+              <oneLineMenuItem accessibilityLabel="Bookmark with Server Side Storage" id="list_3_4" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com:3002/read-bookmark');">
+                <preview>
+                  <longDescriptionPreview>
+                    <title>Instuctions</title>
+                    <summary>Run the bookmark server by running ./startBookmarkServer.sh in the root folder of the sample site. This will start a web server on port 3002 that is used by the menu item to save/load bookmark.</summary>
+                    <image/>
+                  </longDescriptionPreview>
+                </preview>
+                <label>Bookmark with Server Side Storage</label>
+              </oneLineMenuItem>
+            </items>
+          </menuSection>
+          <menuSection>
+            <header>
+              <horizontalDivider accessibilityLabel="Playlist" alignment="left">
+                <title>Playlist</title>
+              </horizontalDivider>
+            </header>
+            <items>
+              <oneLineMenuItem accessibilityLabel="Video with Playlist" id="list_4_1" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/sample-video/file-playlist-video-player.xml');">
+                <label>Video with Playlist</label>
+              </oneLineMenuItem>
+              <oneLineMenuItem accessibilityLabel="Video with up-next" id="list_4_2" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/sample-video/file-up-next-video-player.xml');">
+                <label>Video with Up-Next</label>
+              </oneLineMenuItem>
+              <oneLineMenuItem accessibilityLabel="Video with up-next" id="list_4_3" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/sample-video/hls-up-next-video-player.xml');">
+                <label>HLS Video with Up-Next</label>
+              </oneLineMenuItem>
+            </items>
+          </menuSection>
+          <menuSection>
+            <header>
+              <horizontalDivider accessibilityLabel="HTTP Live streaming playback" alignment="left">
+                <title>WebVTT</title>
+              </horizontalDivider>
+            </header>
+            <items>
+              <oneLineMenuItem accessibilityLabel="WebVTT Styles Example" id="list_5_1" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/sample-video/hls-styles-example-video-player.xml');">
+                <label>WebVTT Styles Example</label>
+              </oneLineMenuItem>
+            </items>
+          </menuSection>
+        </sections>
+      </menu>
+    </listWithPreview>
+  </body>
+</atv>

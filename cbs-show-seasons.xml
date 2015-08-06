@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atv>
+    <head>
+        <script src="http://cbs-staging.phunware.com/sample-xml/js/main.js"/>
+    </head>
+    <body>
+        <listWithPreview id="com.sample.menu-items-with-sections">
+            <header>
+                <simpleHeader accessibilityLabel="TV season">
+                    <title>Show Name</title>
+                </simpleHeader>
+            </header>
+            <menu>
+                <sections>
+                    <menuSection>
+                        <items>
+                            
+                            <!--CONDITIONAL OR HARDCODE WHICH SEASON SHOULD BE LOADED?-->
+                            <oneLineMenuItem id="list_0" accessibilityLabel="Other seasons" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/cbs-show-with-header.xml');">
+                                <label>Season 3</label>
+                                <accessories>
+                                    <arrow/>
+                                </accessories>
+                                <preview>
+                                    <crossFadePreview>
+                                        <image src720="http://cbs-staging.phunware.com/sample-xml/images/720p/tv1.png" src1080="http://cbs-staging.phunware.com/sample-xml/images/1080p/tv1.png"/>
+                                    </crossFadePreview>
+                                </preview>
+                            </oneLineMenuItem>
+                            
+                            <oneLineMenuItem id="list_1" accessibilityLabel="Other seasons" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/cbs-show-with-header.xml');">
+                                <label>Season 2</label>
+                                <accessories>
+                                    <arrow/>
+                                </accessories>
+                                <preview>
+                                    <crossFadePreview>
+                                        <image src720="http://cbs-staging.phunware.com/sample-xml/images/720p/tv1.png" src1080="http://cbs-staging.phunware.com/sample-xml/images/1080p/tv1.png"/>
+                                    </crossFadePreview>
+                                </preview>
+                            </oneLineMenuItem>
+                            
+                            <oneLineMenuItem id="list_2" accessibilityLabel="Other seasons" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/cbs-show-with-header.xml');">
+                                <label>Season 1</label>
+                                <accessories>
+                                    <arrow/>
+                                </accessories>
+                                <preview>
+                                    <crossFadePreview>
+                                        <image src720="http://cbs-staging.phunware.com/sample-xml/images/720p/tv1.png" src1080="http://cbs-staging.phunware.com/sample-xml/images/1080p/tv1.png"/>
+                                    </crossFadePreview>
+                                </preview>
+                            </oneLineMenuItem>
+                            
+                            
+                            
+                        </items>
+                    </menuSection>
+                </sections>
+            </menu>
+        </listWithPreview>
+    </body>
+</atv>

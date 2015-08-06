@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atv>
+	<head>
+		<script src="http://cbs-staging.phunware.com/sample-xml/js/main.js"/>
+	</head>
+	<body>
+		<viewWithNavigationBar id="com.sample.navigation-bar" onNavigate="handleNavbarNavigate( event, 'com.sample.navigation-bar' );" volatile="true" onVolatileReload="handleNavBarVolatileReload( document, 'com.sample.navigation-bar');">
+			<navigation currentIndex="0">
+				<navigationItem id="nav1">
+					<title>Showcase</title>
+					<url>http://cbs-staging.phunware.com/sample-xml/movie-showcase-grid.xml</url>
+				</navigationItem>
+				<navigationItem id="nav2">
+					<title>TV Room</title>
+					<url>http://cbs-staging.phunware.com/sample-xml/tv-room.xml</url>
+				</navigationItem>
+				<navigationItem id="nav3">
+					<title>Media Browser</title>
+					<url>http://cbs-staging.phunware.com/sample-xml/mediaBrowser.xml</url>
+				</navigationItem>
+				<navigationItem id="nav4">
+					<title>Search</title>
+					<url>http://cbs-staging.phunware.com/sample-xml/search.xml</url>
+				</navigationItem>
+			</navigation>
+		</viewWithNavigationBar>
+	</body>
+</atv>
+

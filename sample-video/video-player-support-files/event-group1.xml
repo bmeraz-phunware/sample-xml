@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atv>
+  <body>
+    <eventGroup>
+	  <title>Event Group 1</title>
+      <refreshInterval>10</refreshInterval>
+	  <event>
+        <start>2014-01-01T00:00:05Z</start>
+        <end>2014-01-01T00:00:10Z</end>
+        <title>Event Title 1</title>
+        <description>Sample event description which is meant to be a little longer.</description>
+        <image>http://cbs-staging.phunware.com/sample-xml/image-for-this-event.jpg</image>
+	  </event>
+	  <event>
+        <start>2014-01-01T00:00:25Z</start>
+        <end>2014-01-01T00:00:40Z</end>
+        <title>Event Title 2</title>
+        <description>Sample event description which is meant to be a little longer.</description>
+        <image>http://cbs-staging.phunware.com/sample-xml/image-for-this-event.jpg</image>
+	  </event>
+	  <event>
+        <start>2014-01-01T00:01:10Z</start>
+        <end>2014-01-01T00:01:25Z</end>
+        <title>Event Title 3</title>
+        <description>Sample event description which is meant to be a little longer.</description>
+        <image>http://cbs-staging.phunware.com/sample-xml/image-for-this-event.jpg</image>
+	  </event>
+    </eventGroup>
+  </body>
+</atv>

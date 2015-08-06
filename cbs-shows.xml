@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atv>
+  <head>
+    <script src="http://cbs-staging.phunware.com/sample-xml/js/main.js"/>
+  </head>
+  <body>
+    <scroller id="com.sample.cbs-shows">
+      
+      <items>
+          <grid id="grid_0" columnCount="4">
+              <items>
+                  
+                  <!--DYNAMIC DATA GOES HERE-->
+                  <sixteenByNinePoster alwaysShowTitles="true" id="item_1" accessibilityLabel="TV Show 1" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/cbs-show-with-header.xml');" onPlay="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/sample-video/file-video-player.xml');">
+                      
+                      <image src720="http://cbs-staging.phunware.com/sample-xml/images/720p/16x9.png" src1080="http://cbs-staging.phunware.com/sample-xml/images/1080p/16x9.png"/>
+                      <defaultImage>resource://Square.png</defaultImage>
+                     <title>Episodes</title>
+                  </sixteenByNinePoster>
+                  
+                  
+                  <sixteenByNinePoster alwaysShowTitles="true" id="item_2" accessibilityLabel="TV Show 2" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/tv-episode.xml');" onPlay="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/sample-video/file-video-player.xml');">
+                      
+                      <image src720="http://cbs-staging.phunware.com/sample-xml/images/720p/16x9.png" src1080="http://cbs-staging.phunware.com/sample-xml/images/1080p/16x9.png"/>
+                      <defaultImage>resource://Square.png</defaultImage>
+                      <title>Episodes</title>
+                  </sixteenByNinePoster>
+                  
+                  <sixteenByNinePoster alwaysShowTitles="true" id="item_3" accessibilityLabel="TV Show 3" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/tv-episode.xml');" onPlay="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/sample-video/file-video-player.xml');">
+                      
+                      <image src720="http://cbs-staging.phunware.com/sample-xml/images/720p/16x9.png" src1080="http://cbs-staging.phunware.com/sample-xml/images/1080p/16x9.png"/>
+                      <defaultImage>resource://Square.png</defaultImage>
+                      <title>Episodes</title>
+                  </sixteenByNinePoster>
+                  
+                  <sixteenByNinePoster alwaysShowTitles="true" id="item_4" accessibilityLabel="TV Show 4" onSelect="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/tv-episode.xml');" onPlay="atvutils.loadURL('http://cbs-staging.phunware.com/sample-xml/sample-video/file-video-player.xml');">
+                      
+                      <image src720="http://cbs-staging.phunware.com/sample-xml/images/720p/16x9.png" src1080="http://cbs-staging.phunware.com/sample-xml/images/1080p/16x9.png"/>
+                      <defaultImage>resource://Square.png</defaultImage>
+                      <title>Episodes</title>
+                  </sixteenByNinePoster>
+                  
+                  
+                  
+                </items>
+          </grid>
+      </items>
+
+      
+      
+      
+      
+    </scroller>
+  </body>
+</atv>

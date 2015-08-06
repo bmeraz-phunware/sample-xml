@@ -1,0 +1,12 @@
+#EXTM3U
+#EXT-X-TARGETDURATION:10
+#EXT-X-VERSION:3
+#EXT-X-MEDIA-SEQUENCE:0
+#EXT-X-PLAYLIST-TYPE:VOD
+#EXTINF:10.00000,	
+http://cbs-staging.phunware.com/sample-xml/sample-video/hls-video/interstitial_1/6500k/fileSequence0.ts
+#EXTINF:10.00000,	
+http://cbs-staging.phunware.com/sample-xml/sample-video/hls-video/interstitial_1/6500k/fileSequence1.ts
+#EXTINF:9.51113,	
+http://cbs-staging.phunware.com/sample-xml/sample-video/hls-video/interstitial_1/6500k/fileSequence2.ts
+#EXT-X-ENDLIST
